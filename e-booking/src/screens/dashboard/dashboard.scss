@@ -1,0 +1,40 @@
+.hederContainer {
+    background-image: linear-gradient(to right, rgba(var(--tmdbDarkBlue), 0.8) 0%, rgba(var(--tmdbDarkBlue), 0) 100%);
+    min-height: 300px;
+    height: calc(100vh / 2.5);
+    max-height: 360px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border: 2px solid black;
+    background-color: grey;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContent {
+    margin: 50px;
+}
+
+.search {
+    width: 100%;
+}
+
+.searchBox {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.searchButton {
+    margin-top: 20px;
+
+}

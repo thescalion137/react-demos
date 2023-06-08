@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 12236,
+      "firstName": "Vishal",
+      "lastName": "Makwana",
+      "email": "vishal@gmail.com",
+      "password": "vishal"
+    },
+    {
+      "id": "11603d85-215d-4c26-a611-84eff5998a3d",
+      "firstName": "jay",
+      "lastName": "makwana",
+      "email": "jay@gmail.com",
+      "password": "jay"
+    }
+  ],
+  "products": [
+    {
+      "id": "ff7070a0-f6dd-4ec9-af3e-1a0936c5fa80",
+      "productName": "notes",
+      "productImage": "blob:http://localhost:3000/8de35b6b-c417-4fbd-a362-015dd218f775",
+      "productCategory": "home",
+      "productDescription": "for student",
+      "productPrice": "1200"
+    },
+    {
+      "id": "9bce4c21-952d-4c64-8208-5c04ac16d8f1",
+      "productName": "calender",
+      "productImage": "blob:http://localhost:3000/6b45a05e-a814-4ff8-92dd-a8f9503c6db1",
+      "productCategory": "home",
+      "productDescription": "for student",
+      "productPrice": "300"
+    }
+  ]
+}

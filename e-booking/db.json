@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "123456",
+      "username": "Vishal",
+      "mobileNumber": "8306590598",
+      "email": "vishal@gmail.com",
+      "password": "vishal",
+      "confirmPassword": "vishal"
+    }
+  ],
+  "movies": [
+    {
+      "id": "123456",
+      "username": "Vishal",
+      "mobileNumber": "8306590598",
+      "email": "vishal@gmail.com",
+      "password": "vishal",
+      "confirmPassword": "vishal"
+    }
+  ]
+}

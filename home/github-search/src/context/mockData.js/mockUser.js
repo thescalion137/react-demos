@@ -1,0 +1,38 @@
+export default {
+  login: "VishalMakwana23",
+  id: 70998696,
+  node_id: "MDQ6VXNlcjcwOTk4Njk2",
+  avatar_url: "https://avatars.githubusercontent.com/u/70998696?v=4",
+  gravatar_id: "",
+  url: "https://api.github.com/users/VishalMakwana23",
+  html_url: "https://github.com/VishalMakwana23",
+  followers_url: "https://api.github.com/users/VishalMakwana23/followers",
+  following_url:
+    "https://api.github.com/users/VishalMakwana23/following{/other_user}",
+  gists_url: "https://api.github.com/users/VishalMakwana23/gists{/gist_id}",
+  starred_url:
+    "https://api.github.com/users/VishalMakwana23/starred{/owner}{/repo}",
+  subscriptions_url:
+    "https://api.github.com/users/VishalMakwana23/subscriptions",
+  organizations_url: "https://api.github.com/users/VishalMakwana23/orgs",
+  repos_url: "https://api.github.com/users/VishalMakwana23/repos",
+  events_url: "https://api.github.com/users/VishalMakwana23/events{/privacy}",
+  received_events_url:
+    "https://api.github.com/users/VishalMakwana23/received_events",
+  type: "User",
+  site_admin: false,
+  name: "Vishal Makwana",
+  company: null,
+  blog: "",
+  location: "Surat,India",
+  email: null,
+  hireable: null,
+  bio: null,
+  twitter_username: "vishalmakwanaa",
+  public_repos: 32,
+  public_gists: 2,
+  followers: 6,
+  following: 5,
+  created_at: "2020-09-09T05:55:43Z",
+  updated_at: "2022-05-23T10:57:23Z",
+};
