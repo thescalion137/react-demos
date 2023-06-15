@@ -1,0 +1,5 @@
+export const CREATE_EVENT = "CREATE_EVENT";
+export const GET_ALL_EVENT = "GET_ALL_EVENT";
+export const UPLOAD_EVENT_IMAGE = "UPLOAD_EVENT_IMAGE";
+export const DELETE_EVENT = "DELETE_EVENT";
+export const EDIT_EVENT = "EDIT_EVENT";
