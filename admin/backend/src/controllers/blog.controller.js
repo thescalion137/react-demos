@@ -30,15 +30,9 @@ exports.createBlog = async (req, res, next) => {
 };
 
 exports.UploadImages = async (req, res, next) => {
-  const { files } = req;
   try {
-    if (files?.length) {
-      const imageUrls = await Promise.all(
-        files.map(async item => ({
-          url: await uploadImage(item.path),
-        }))
-      );
-      res.sendJson(imageUrls[0]);
+    if (req?.file?.location) {
+      res.sendJson(req.file.location);
     } else {
       throw new APIError({ status: 403, message: 'Files not Found' });
     }

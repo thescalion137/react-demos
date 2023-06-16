@@ -7,7 +7,7 @@ const { validate } = require('express-validation');
 //   forgotPassword,
 //   resetPassword,
 // } = require('../validations/auth.validation');
-const { upload } = require('../config/multer');
+// const { upload } = require('../config/multer');
 const {
   UploadImages,
   createBlog,
@@ -19,12 +19,13 @@ const {
   createBlogValidation,
   deleteBlogValidation,
 } = require('../validations/blog.validation');
+const { upload } = require('../config/s3.config');
 
 blogRouter.post('/', validate(createBlogValidation), createBlog);
 blogRouter.post(
   '/imageUpload',
   // isAuth,
-  upload.array('file'),
+  upload.single('file'),
   UploadImages
 );
 
